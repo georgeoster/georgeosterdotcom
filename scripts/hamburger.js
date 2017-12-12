@@ -1,32 +1,3 @@
-
-
-$(function() {
-    
-
-    
-	$("#menuOptionsID").animate({ marginTop: "-100%"} , .1);
-    $("#rightCurtainID").animate({ marginLeft: "100%"} , .1);
-    $("#leftCurtainID").animate({ marginRight: "100%"} , .1);
-    
-    $("#rightCurtainID").animate({ marginTop: "-10%"} , .1);
-    $("#leftCurtainID").animate({ marginTop: "-10%"} , .1);
-    	
-    var $hamburger = $(".hamburger");
-    
-  	$(".hamburger").on("click", function(e) {
-        
-    		$hamburger.toggleClass("is-active");
-    		
-    		if ( $hamburger.hasClass("is-active") ){ 
-    			showMenu(); 
-    		} else {
-    			hideMenu(); 
-            }		
-  	});
-    
-});
-
-
 function showMenu(){
 
     $("#rightCurtainID").animate({ marginLeft: "-1%"} , 1000);
