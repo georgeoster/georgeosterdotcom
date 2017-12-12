@@ -1,0 +1,30 @@
+
+<script>
+    var redirect = "reuse/redirecting.html";
+    var index = "reuse/description.html"
+    var github = "https://github.com/georgeoster?tab=repositories";
+    var blog = "reuse/blog.html";
+    
+</script>
+
+
+    <div id = "menuOptionsID" class ="menuOptionsCLASS">
+
+        <p onclick="menuLink(index,false,null)">home</p>
+        <p onclick="menuLink(redirect,true,github)">github</p>
+        <p onclick="menuLink(blog,false,null)">blog</p>
+        <p onclick="menuLink(index,false,null)">nudes</p>
+
+    </div>
+
+    <button class="hamburger hamburger--collapse" type="button" style ="position: absolute; top: 10px; left: 10px;z-index:101;">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <div style = "display: flex; ">
+        <div id="leftCurtainID" class="leftCurtainCLASS"></div>
+        <div id="rightCurtainID" class="rightCurtainCLASS"></div>
+    </div>
+    

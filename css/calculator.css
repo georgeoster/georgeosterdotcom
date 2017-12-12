@@ -1,0 +1,36 @@
+    button {
+        background-color: #3A3D41; 
+        border: none;
+        padding: 16px 16px;
+        color: white;
+        font-size: 36px;
+        cursor: pointer;
+        border-radius: 8px;
+        width: 60px;
+        display: inline-block;
+        margin: 8px;
+    }
+        
+    button:hover {
+        background-color: #595B5F;  
+        color: white;
+    }
+    
+    body{
+        font-family: "Arial", sans-serif;
+        background-color: black;  
+        color: white;
+        font-size: 36px;        
+    }
+        
+    .displayBox{
+        text-align: right;
+        border-style: solid;
+        border-color:  #A8ACB2;
+        border-radius: 8px;
+        margin: 8px;
+        font-size: 36px;
+        min-height: 64px;
+        line-height: 64px;
+    }
+    
